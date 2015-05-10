@@ -1,0 +1,48 @@
+
+html {  
+  height: 99%;  
+}
+
+body {
+  background: none;
+  margin: 0in;
+  font-size: 0;
+  height: 99%;  
+}
+
+.pageLink {
+  display: none;
+}
+
+.page {
+  margin: 0in;
+  padding: 0in;
+  height: 10.5in;
+  width: 8in;
+  background: none;
+  box-shadow: none;
+}
+
+.actions {
+  display: none;
+}
+
+.lastPage {
+  page-break-after: auto;
+}
+
+.pageControl {
+  display: none;
+}
+
+.clearPrintTopMargin {
+  margin-top: 0;
+}
+
+.clearPrintBottomMargin {
+  margin-bottom: 0;
+}
+
+.pageIndex {
+  margin: 0 0.15in;
+}
