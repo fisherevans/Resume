@@ -145,7 +145,7 @@ body {
   font-weight: 100;
 }
 
-.headerProfession {
+/*.headerProfession {
   float: left;
   clear: left;
   font-family: 'Roboto', sans-serif;
@@ -153,6 +153,16 @@ body {
   line-height: 16pt;
   font-weight: 300;
   margin-left: 2in;
+}*/
+
+.headerProfession {
+  float: left;
+  clear: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+  line-height: 16pt;
+  font-weight: 300;
+  margin-left: 0.925in;
 }
 
 .contactInfo {
@@ -298,6 +308,11 @@ body {
   text-align: left;
 }
 
+.contentSubTitle {
+  color: #888;
+  font-weight: 300;
+}
+
 .contentLine {
   display: block;
   position: relative;
@@ -342,6 +357,10 @@ body {
 .subtleLink {
   text-decoration: inherit;
   color: inherit;
+}
+
+.subtleLink.underlined {
+  text-decoration: underline;
 }
 
 .subtleLink:hover {
