@@ -27,7 +27,7 @@ body {
   text-decoration: inherit;
 }
 
-.actions {
+.actions, .github {
   display: none;
 }
 
